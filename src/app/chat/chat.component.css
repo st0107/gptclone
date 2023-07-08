@@ -1,0 +1,21 @@
+.chat{
+    /* margin: -10px;
+    padding: 0px; */
+    display: flex;
+    flex-direction: row;
+}
+
+.sidebar{
+    background-color: #62D5D9;
+    border: 1px solid black;
+    position: relative;
+    width: 300px;
+    height: calc(100vh - 2px);
+    border-radius: 10px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.input{
+    width: calc(100vw - 300px);
+}

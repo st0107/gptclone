@@ -1,0 +1,46 @@
+h1{
+    text-align: center;
+}
+form{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    border: 1px solid rgb(181, 178, 178);
+    /* max-width: 400px ; */
+    width: 350px;
+    height: 500px;
+    transform: translate(-50%,-30%);
+    background: #FF6A5E;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.form-field{
+    display: flex;
+    align-items: self-start;
+    flex-direction: column;
+    padding: 4px 10px;
+}
+
+.form-input{
+    line-height: 30px;
+    width: 320px;
+    font-size: 20px;
+    color: rgb(91, 88, 88);
+    padding: 5px;
+    border: none;
+    outline: none;
+
+}
+
+.form-input:focus{
+    border: none;
+    outline: none;
+}
+
+.btn{
+    line-height: 25px;
+    margin-top: 80px;
+    width: 270px;
+}
+

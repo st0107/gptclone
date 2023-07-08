@@ -1,0 +1,63 @@
+.new-chat-btn{
+    margin: 10px 20px;
+    border: 1px  solid gray;
+    line-height: 40px;
+    font-size: 20px;
+    color: whitesmoke;
+    background-color: #1bb3b9;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 5px 5px 5px #7979794a;
+}
+.new-chat-btn:hover{
+    box-shadow: 5px 5px 5px #ffffff6c
+}
+
+hr{
+    margin: 10px ;
+    box-shadow: none;
+    border: 1px solid gray;
+}
+.chat-tabs{
+    overflow: auto;
+    height: 79vh;
+}
+
+.chat-tab{
+    width: 270px;
+    height: 40px;
+    margin: 5px 0px;
+    line-height: 40px;
+    font-size: 20px;
+    color: whitesmoke;
+    background-color: #1bb3b9;
+    border-radius: 10px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    text-align: center;
+    box-shadow: 5px 5px 5px #7979794a;
+}
+
+.chat-tab:hover{
+    box-shadow: 5px 5px 5px #ffffff6c
+}
+
+.user{
+    position: absolute;
+    bottom: 0px;
+    width: 280px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+/* .user *{
+    border: 1px solid black;
+} */
+
+.logout{
+    width: 20px;
+    height: 20px;
+    position: relative;
+    bottom: -30px;
+    
+}
